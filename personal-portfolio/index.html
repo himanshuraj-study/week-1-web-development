@@ -1,0 +1,106 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>My Portfolio</h2>
+
+        <button class="menu-btn" id="menu-btn">☰</button>
+
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Hi, I'm Himanshu Raj</h1>
+        <p>I am a Computer Science student interested in web development.</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a B.Tech Computer Science student at KIIT University.
+            I enjoy learning programming and building new projects.
+            I am currently improving my web development skills.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C Programming</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Personal Portfolio</h3>
+            <p>A simple website made using HTML and CSS.</p>
+        </div>
+
+        <div class="project">
+            <h3>Unit Converter</h3>
+            <p>A project that converts values between different units.</p>
+        </div>
+
+        <div class="project">
+            <h3>Pass Generator</h3>
+            <p>A simple project for generating passwords.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter your email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your message"></textarea>
+
+            <button type="submit">Submit</button>
+
+            <p id="error-message"></p>
+            <p id="success-message"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Himanshu Raj | My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
