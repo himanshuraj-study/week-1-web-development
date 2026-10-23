@@ -6,7 +6,7 @@ This repository contains my Week 1 projects created using HTML, CSS, and JavaScr
 
 ### 1. Personal Portfolio
 
-A simple personal portfolio website that includes:-
+A simple personal portfolio website that includes:---
 
 * Home, About, Skills, Projects, and Contact sections
 * Responsive navigation bar
