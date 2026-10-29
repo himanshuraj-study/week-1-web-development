@@ -2,7 +2,7 @@
 
 This repository contains my Week 1 projects created using HTML, CSS, and JavaScript.
 
-## Projects -----commit
+## Projects -----
 
 ### 1. Personal Portfolio
 
