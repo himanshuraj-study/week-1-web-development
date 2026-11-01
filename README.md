@@ -31,5 +31,5 @@ A simple electronics shopping landing page that includes:
 
 ## Author
 
-Himanshu Raj   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Himanshu Raj 
 
